@@ -1,7 +1,7 @@
 import React, { FC, useMemo } from 'react';
 import { Profile } from '../static/profile';
 import styled from 'styled-components';
-import { Organization } from 'types/organization.type';
+import { Organization } from 'src/types/organization.type';
 import { getMonthName } from '../utils/getMonthName';
 
 const Wrapper = styled.div`

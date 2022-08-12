@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
-import { Organization } from 'types/organization.type';
-import { Repository } from 'types/repository.type';
-import { Skill } from 'types/skill.type';
+import { Organization } from 'src/types/organization.type';
+import { Repository } from 'src/types/repository.type';
+import { Skill } from 'src/types/skill.type';
 
 export const Profile: {
     technologies: Skill[];

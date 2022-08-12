@@ -2,7 +2,7 @@ import { format } from 'date-fns';
 import { FC, useState } from 'react';
 import { ArrowRight, ArrowUpLeft, Linkedin } from 'react-feather';
 import styled from 'styled-components';
-import { Organization } from 'types/organization.type';
+import { Organization } from 'src/types/organization.type';
 
 import { Table } from '../components/Table';
 import { Profile } from '../static/profile';

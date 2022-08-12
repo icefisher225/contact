@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react';
 import styled from 'styled-components';
-import { Skill } from 'types/skill.type';
+import { Skill } from 'src/types/skill.type';
 
 import { Table } from '../components/Table';
 

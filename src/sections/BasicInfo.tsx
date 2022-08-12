@@ -73,57 +73,36 @@ const DesktopInfo = () => {
     return (
         <Properties>
             {[
-                ['Name', 'Luc van Kampen'],
-                ['Bio', 'Create Epic Shit'],
+                ['Name', 'Ryan Cheevers-Brown'],
+                ['Bio', 'Blue team, photos, and sometimes I make shit'],
                 [
                     'Tel',
                     <a href="tel:0031618925911" target="_blank">
-                        +31 618 925 911
+                        +1 (413) 923-2392
                     </a>,
                 ],
                 [
                     'Github',
-                    <a href="https://github.com/lucemans" target="_blank">
+                    <a href="https://github.com/icefisher225" target="_blank">
                         lucemans
                     </a>,
                 ],
                 [
                     'Twitter',
-                    <a href="https://twitter.com/lucemansnl" target="_blank">
+                    <a href="https://twitter.com/icefisher225" target="_blank">
                         @lucemansnl
                     </a>,
                 ],
                 [
                     'Telegram',
-                    <a href="https://t.me/lucemans" target="_blank">
+                    <a href="https://t.me/ma1ist4ir3" target="_blank">
                         @lucemans
                     </a>,
                 ],
                 [
                     'Linkedin',
-                    <a href="https://linkedin.com/in/lucemans" target="_blank">
+                    <a href="https://linkedin.com/in/ryan-cheevers-brown-7047931ba" target="_blank">
                         Luc van Kampen
-                    </a>,
-                ],
-                [
-                    'Youtube',
-                    <a
-                        href="https://www.youtube.com/c/Lucemans"
-                        target="_blank"
-                    >
-                        c/lucemans
-                    </a>,
-                ],
-                ['Eth', 'lucemans.eth'],
-                [
-                    'PGP Key',
-                    <a
-                        href="https://luc.contact/public/lucemans.asc"
-                        target="_blank"
-                    >
-                        69F2 4A82 16AA E27D 2D2A
-                        <br />
-                        428C E6D8 1E8E EC87 269A
                     </a>,
                 ],
             ].map((a, index) => (
@@ -141,23 +120,12 @@ const MobileInfo = () => {
         <>
             <Properties>
                 {[
-                    ['Name', 'Luc van Kampen'],
-                    ['Bio', 'Create Epic Shit'],
+                    ['Name', 'Ryan Cheevers-Brown'],
+                    ['Bio', 'Blue Team, Photo'],
                     [
                         'Tel',
                         <a href="tel:0031618925911" target="_blank">
-                            +31 618 925 911
-                        </a>,
-                    ],
-                    [
-                        'PGP Key',
-                        <a
-                            href="https://luc.contact/public/lucemans.asc"
-                            target="_blank"
-                        >
-                            69F2 4A82 16AA E27D 2D2A
-                            <br />
-                            428C E6D8 1E8E EC87 269A
+                            +1 (413) 923-2392
                         </a>,
                     ],
                 ].map((a, index) => (
@@ -170,33 +138,23 @@ const MobileInfo = () => {
                     {[
                         {
                             e: <Twitter />,
-                            a: 'https://twitter.com/lucemansnl',
+                            a: 'https://twitter.com/icefisher225',
                             l: 'Twitter',
                         },
                         {
                             e: <GitHub />,
-                            a: 'https://github.com/lucemans',
+                            a: 'https://github.com/icefisher225',
                             l: 'Github',
                         },
                         {
                             e: <Linkedin />,
-                            a: 'https://linkedin.com/in/lucemans',
+                            a: 'https://linkedin.com/in/ryan-cheevers-brown-7047931ba',
                             l: 'Linkedin',
                         },
                         {
-                            e: <Youtube />,
-                            a: 'https://www.youtube.com/c/Lucemans',
-                            l: 'Youtube',
-                        },
-                        {
                             e: <img src={telegram} />,
-                            a: 'https://t.me/lucemans',
+                            a: 'https://t.me/ma1ist4ir3',
                             l: 'Telegram',
-                        },
-                        {
-                            e: <img src={ethereum} />,
-                            a: 'https://etherscan.io/address/lucemans.eth',
-                            l: 'Ethereum Address',
                         },
                     ].map((v) => (
                         <a href={v.a} target="_blank" aria-label={v.l}>
