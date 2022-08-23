@@ -18,16 +18,9 @@ jobs:
       - name: Build
         run: yarn build
       - name: Edgeserver Upload
-        uses: lvkdotsh/edgeserver-action@master
+        uses: lvkdotsh/edgeserver-action@v0.0.34
         with:
-          app_id: "987654321"
+          app_id: "80751380033179648"
           server: https://api.edgeserver.io
-          token: ${{ secrets.SIGNAL_TOKEN }}
-          directory: dist
-      - name: Edgeserver Staging Upload
-        uses: lvkdotsh/edgeserver-action@master
-        with:
-          app_id: "66656824585097216"
-          server: https://api.edgeserver.dev
-          token: ${{ secrets.SIGNAL_TOKEN2 }}
+          token: ${{ secrets.EDGESERVER_TOKEN }}
           directory: dist
