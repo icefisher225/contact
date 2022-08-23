@@ -1,4 +1,4 @@
-#Contact Page
+# Contact Page
 
 Forked from https://github.com/lucemans/contact. 
 
